@@ -3,7 +3,7 @@ spring:
     name: cart-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/productdb
+    url: jdbc:mysql://localhost:3306/cartdb
     username: root
     password: drisht123
 
@@ -13,4 +13,4 @@ spring:
       ddl-auto: update
 
 server:
-  port: 8081
+  port: 8082
